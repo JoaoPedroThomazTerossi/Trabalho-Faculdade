@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    /* Formataçoes */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:rgb(0, 0, 0) ;
+    background-color:rgb(255, 255, 255) ;
+}   
+.meubolo{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    text-align:center;
+    padding: 80px;
+}
+.topo{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    background-color:lightblue;
+}
+.faixa{
+    background-color: white;
+    height: 80px;
+}
+.container{
+   overflow: hidden;
+
+}
+.coluna{
+    float: left;
+    min-height: 400px;
+}
+.cl1{
+    width: 20%;
+    background-color:white;
+}
+.cl2{
+    width: 65%;
+    background-color: white;
+}
+.cl3{
+    width: 15%;
+    background-color: white;
+}
