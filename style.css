@@ -1,54 +1,62 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     /* Formataçoes */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color:black ;
-    background-color:rgb(152, 174, 182) ;
-}   
-.meubolo{
+    color: black;
+    background-image: url(https://wallpapers.com/images/hd/information-technology-digital-binary-data-zibvrwelu1ovy1ix.jpg);
+}
+
+.meubolo {
     position: absolute;
     top: 200px;
     left: 200px;
     background-color: aquamarine;
     width: 200px;
     height: 200px;
-    border-radius:50%;
-    text-align:center;
+    border-radius: 50%;
+    text-align: center;
     padding: 80px;
 }
-.topo{
+
+.topo {
     text-align: center;
     font-size: 150px;
     padding: 30px;
-    background-color: lightcyan;
+    background-color: lightgrey;
 }
-.faixa{
-    background-color: darkturquoise;
+
+.faixa {
+    background-image: url(https://wallpapers.com/images/hd/information-technology-digital-binary-data-zibvrwelu1ovy1ix.jpg);
     height: 80px;
 }
-.container{
-   overflow: hidden;
+
+.container {
+    overflow: hidden;
 
 }
-.coluna{
+
+.coluna {
     float: left;
     min-height: 400px;
 }
-.cl1{
+
+.cl1 {
     width: 10%;
-    background-image: url(https://thumbs.dreamstime.com/b/alfa-do-png-t%C3%BAnel-digital-la%C3%A7o-as-cabe%C3%A7as-indicam-acima-118874658.jpg)
+    background-image: url()
 }
-.cl2{
+
+.cl2 {
     width: 80%;
-    background-color: cornflowerblue;
+    background-color: lightgrey;
 }
-.cl3{
+
+.cl3 {
     width: 10%;
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR58iWAPX9EZsvi9kwEh_657weyr8RMJNTorQ&usqp=CAU) ;
+    background-image: url();
 }
