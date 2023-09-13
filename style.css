@@ -8,8 +8,8 @@ body{
     /* Formataçoes */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color:rgb(0, 0, 0) ;
-    background-color:rgb(255, 255, 255) ;
+    color:black ;
+    background-color:rgb(152, 174, 182) ;
 }   
 .meubolo{
     position: absolute;
@@ -24,12 +24,12 @@ body{
 }
 .topo{
     text-align: center;
-    font-size: 50px;
+    font-size: 150px;
     padding: 30px;
-    background-color:lightblue;
+    background-color: lightcyan;
 }
 .faixa{
-    background-color: rgb(0, 0, 0);
+    background-color: darkturquoise;
     height: 80px;
 }
 .container{
@@ -41,14 +41,14 @@ body{
     min-height: 400px;
 }
 .cl1{
-    width: 20%;
-    background-color:white;
+    width: 10%;
+    background-image: url(https://thumbs.dreamstime.com/b/alfa-do-png-t%C3%BAnel-digital-la%C3%A7o-as-cabe%C3%A7as-indicam-acima-118874658.jpg)
 }
 .cl2{
-    width: 65%;
-    background-color: white;
+    width: 80%;
+    background-color: cornflowerblue;
 }
 .cl3{
-    width: 15%;
-    background-color: white;
+    width: 10%;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR58iWAPX9EZsvi9kwEh_657weyr8RMJNTorQ&usqp=CAU) ;
 }
