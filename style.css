@@ -5,7 +5,6 @@
 body {
     margin: 0;
     padding: 0;
-    /* Formataçoes */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: black;
@@ -26,7 +25,7 @@ body {
 
 .topo {
     text-align: center;
-    font-size: 150px;
+    font-size: 50px;
     padding: 30px;
     background-color: lightgrey;
 }
