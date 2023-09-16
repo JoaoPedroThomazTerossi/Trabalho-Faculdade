@@ -2,6 +2,31 @@
 <html lang="pt-br">
 
 <head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 150px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+  </style>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,13 +81,12 @@
 
 <body>
   <div class="topo" onmouseover="abc()">NewTec</div>
-  <div class="topnav">
-    <a href="#">Pagina Inicial</a>
-    <a href="#">Noticias</a>
-    <a href="#">Sobre</a>
-    <a href="#">Contatos</a>
-  </div>
-
+  <ul>
+    <li><a href="file:///C:/Users/joaop/OneDrive/%C3%81rea%20de%20Trabalho/Faculdade/2%C2%BA%20Semestre/Trabalho-Faculdade/Trabalho-Faculdade/index.html">Pagina Inicial</a></li>
+    <li><a href="#news">Noticias</a></li>
+    <li><a href="file:///C:/Users/joaop/OneDrive/%C3%81rea%20de%20Trabalho/Faculdade/2%C2%BA%20Semestre/Trabalho-Faculdade/Trabalho-Faculdade/Contatos/index.html">Contatos</a></li>
+    <li><a href="file:///C:/Users/joaop/OneDrive/%C3%81rea%20de%20Trabalho/Faculdade/2%C2%BA%20Semestre/Trabalho-Faculdade/Trabalho-Faculdade/Sobre/index.html">Sobre</a></li>
+  </ul>
   <div class="faixa"></div>
 
   <div class="container">
@@ -90,6 +114,8 @@
       </div>
       <div class="coluna cl3"></div>
     </div>
+
+
 </body>
 
 </html>
