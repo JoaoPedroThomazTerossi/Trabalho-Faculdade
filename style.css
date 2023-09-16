@@ -31,8 +31,9 @@ body {
 }
 
 .faixa {
-    background-image: url(https://wallpapers.com/images/hd/information-technology-digital-binary-data-zibvrwelu1ovy1ix.jpg);
+    background-image:url(https://wallpapers.com/images/hd/information-technology-digital-binary-data-zibvrwelu1ovy1ix.jpg);
     height: 80px;
+    color: rgb(255, 255, 255);
 }
 
 .container {
