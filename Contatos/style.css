@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    background-image: url(https://wallpapers.com/images/hd/information-technology-digital-binary-data-zibvrwelu1ovy1ix.jpg);
+}
+
+.meubolo {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 80px;
+}
+
+.topo {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    background-color: lightgrey;
+}
+
+.faixa {
+    background-image:url(https://wallpapers.com/images/hd/information-technology-digital-binary-data-zibvrwelu1ovy1ix.jpg);
+    height: 80px;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    overflow: hidden;
+
+}
+
+.coluna {
+    float: left;
+    min-height: 400px;
+}
+
+.cl1 {
+    width: 10%;
+    background-image: url()
+}
+
+.cl2 {
+    width: 80%;
+    padding: 15px;
+    background-color: gray;
+}
+
+.cl3 {
+    width: 10%;
+    background-image: url();
+}
